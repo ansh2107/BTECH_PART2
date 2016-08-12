@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:padding="40dip" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:id="@+id/ip"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="I.P Address"
+             >
+            <requestFocus />
+        </EditText>
+
+
+
+        <EditText
+        android:id="@+id/port"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="Port"
+        >
+
+
+    </EditText>
+        <EditText
+            android:id="@+id/filename"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="File Name ">
+
+
+
+        </EditText>
+
+        <Button
+            android:id="@+id/submit"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ScreenCastTest</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_file_browser">FileBrowser</string>
+    <string name="title_activity_pdf_renderer">PdfRenderer</string>
+    <string name="title_activity_pdf_file_renderer">PdfFileRenderer</string>
+    <string name="title_activity_canvas_main">CanvasMain</string>
+    <string-array name="Colour">
+        <item>Black</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+    </string-array>
+    <string-array name="Options">
+        <item>Pen</item>
+        <item>Eraser</item>
+    </string-array>
+</resources>

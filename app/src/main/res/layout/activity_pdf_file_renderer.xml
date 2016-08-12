@@ -1,0 +1,73 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PdfFileRenderer">
+
+    <ViewFlipper
+        android:id="@+id/viewflipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY" />
+
+
+
+
+    </ViewFlipper>
+
+
+    <LinearLayout
+        android:id="@+id/pdfbttn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+
+        android:visibility="visible">
+
+        <Button
+            android:id="@+id/previous"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Previous" />
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Next" />
+
+        <Button
+            android:id="@+id/canvas"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Canvas" />
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:id="@+id/closelayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible"
+        >
+        <ImageButton
+            android:id="@+id/close"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:src="@drawable/close"
+            android:layout_gravity="right"
+            android:scaleType="fitXY"
+             />
+    </LinearLayout>
+</FrameLayout>

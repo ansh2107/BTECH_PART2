@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:padding="40dip" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:id="@+id/ip_up"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="I.P Address"
+            android:text="192.168.43.102">
+            <requestFocus />
+        </EditText>
+
+
+
+        <EditText
+            android:id="@+id/port_up"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="Port"
+            android:text="211">
+
+
+        </EditText>
+
+
+
+
+
+
+        <Button
+            android:id="@+id/submit_up"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit" />
+
+    </LinearLayout>
+
+</RelativeLayout>
